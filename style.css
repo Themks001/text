@@ -1,0 +1,42 @@
+*{
+ background: #121212;
+ color: white;
+ box-sizing: border-box;
+}
+.inputDiv{
+ text-align: center;
+}
+#input-text{
+ background: none;
+ border: 1px solid white;
+ font-size: 1.2rem;
+ height: 40px;
+ width: 65%;
+ text-align: center;
+}
+#text-div{
+ font-size: 60px;
+ overflow-x: hidden;
+ font-weight: bolder;
+ color: #121212;
+ height: max-content;
+ text-decoration:10px underline;
+ text-align: center;
+ width: fit-content;
+ letter-spacing: .2rem;
+ background: linear-gradient(90deg, #ff00d2, #fed90f, #00a2ff, #09f1b8);
+ position: absolute;
+ -webkit-text-stroke: 6px transparent;
+ -webkit-background-clip: text;
+ background-clip: text; 
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+}
+#submit{
+ padding: 10px 20px;
+ background: royalblue;
+ font-size: 1.2rem;
+ border: none;
+ height: 40px;
+}
